@@ -60,6 +60,9 @@ body {
 }
 
 /* Contact Styling */
+.list-unstyled{
+margin-left: 23px;
+}
 .contact-list li {
     margin-bottom: 12px;
     font-size: 0.85rem;
@@ -232,7 +235,7 @@ body {
     font-size: 0.85rem;
     line-height: 1.4;
     color: var(--color-white);
-    width: 200px;
+    
 }
 
 .reference-details strong {
