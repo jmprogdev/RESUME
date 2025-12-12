@@ -35,7 +35,7 @@ body {
 .profile-image-section {
     background-color: var(--color-yellow); 
     padding-top: 20px !important; /* Adjusted for top spacing */
-    margin-bottom: -30px;
+    margin-bottom: -40px;
     /* p-4 from HTML gives overall padding, this is just for the top area look */
 }
 
