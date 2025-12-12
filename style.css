@@ -30,16 +30,35 @@ body {
     overflow: hidden; 
 }
 
-.profile-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: 10px solid var(--color-yellow); 
-    z-index: 2;
-    position: relative;
+/* --- Profile Image Styling (NEW/MODIFIED) --- */
+/* Set the image section background and top padding */
+.profile-image-section {
+    background-color: var(--color-yellow); 
+    padding-top: 20px !important; /* Adjusted for top spacing */
+    margin-bottom: -30px;
+    /* p-4 from HTML gives overall padding, this is just for the top area look */
 }
 
-/* Yellow Sections General Styling */
+.profile-image {
+    /* Define fixed size for the profile image for consistent look */
+    width: 200px; 
+    height: 200px; 
+    /* Use object-fit to ensure the image covers the area without being squished */
+    object-fit: cover; 
+    /* Optional: Add a border */
+    border: 5px solid var(--color-dark-grey);
+    /* img-fluid (Bootstrap) ensures it shrinks on smaller screens if necessary */
+}
+/* END Profile Image Styling */
+
+/* Make the contact section start immediately after the dark background of the image */
+.contact-section {
+    background-color: var(--color-yellow);
+    padding: 25px 30px;
+    margin-top: 0; 
+}
+/* ... rest of your CSS ... */
+
 .section-block {
     background-color: var(--color-yellow);
     padding: 25px 30px;
